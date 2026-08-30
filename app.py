@@ -13,7 +13,7 @@ def run(args):
     if not ip:
         return
 
-    running = subprocess.run(["ssh", "-o", "ConnectTimeout=10", "-o", "BatchMode=yes", f"root@{ip}", cmd],
+    running = subprocess.run(["ssh", "-o", "ConnectTimeout=10", "-o", "BatchMode=yes", ip, cmd],
                              capture_output=True,
                              text=True)
 
