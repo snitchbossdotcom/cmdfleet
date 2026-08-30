@@ -20,7 +20,7 @@ Then add all your servers ips to ips.txt
 root@192.168.100.64\
 user@10.10.10.43\
 wah@185.165.29.94 -p 2022\
-root@192.168.164.83 -p 8373\
+root@192.168.164.83 -p 8373
 
 after that you can run ```python3 app.py -c "command"```
 ### Example
